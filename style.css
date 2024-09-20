@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Playpen+Sans:wght@100..800&family=Shadows+Into+Light&display=swap');
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    height: 100px;
+    background: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 30px;
+
+    text-align: left;
+    font-family: "Shadows Into Light", cursive;
+}
+
+.logo h1 {
+    font-family: "Shadows Into Light", cursive;
+    color: #32c2fe;
+    font-size: 25px;
+}
+
+.menu {
+    flex: 70%;
+
+    flex-grow: 1;
+    text-align: right;
+    padding: 15px;
+    font-family: "Playpen Sans", cursive;
+}
+
+.menu a {
+    color: #32c2fe;
+    font-size: 20px;
+    padding: 15px 10px;
+}
+
+.menu a:hover {
+    color: #ff9e13;
+    font-size: 20px;
+    padding: 20px 15px;
+}
+
+#botao {
+    background: #32c2fe;
+    padding: 15px 10px;
+    color: white;
+    border-radius: 8px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover {
+    background: #ff9e13;
+    border: none;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.headline {
+    flex: 40%;
+margin-left: 10%;
+
+}
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #32c2fe;
+    padding: 0;
+    margin: 0;
+    
+}
+.headline p{
+    color: grey;
+    text-align: left;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+
+    text-align: center;
+}
+.contact-btn{
+    background: #ff9e13;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+}
+.contact-btn:hover{
+    background: #32c2fe;
+    color: black;
+}
+section{
+    display: inline-block;
+    margin-top: 80px;
+    padding: 5%;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    color: #32c2fe;
+    text-align: center;
+    padding: 5%;
+    
+}
+.servicos{
+    display: inline-block;
+    margin-top: 5%; 
+    
+}
+.card{
+    display:inline-block;
+       width: 30%;
+        padding: 20px;
+    margin: 3%;
+    border: 1px solid #ff9e13;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+.card:hover{
+    background: #ff9e13;
+    color: white;
+    padding: 40px;
+    }
+    .card:hover img{
+        display: none;
+    }
+    .card:hover card-tex{
+        display: none;
+    }
+    .card:hover oculto{
+        display: block;
+    }
+.oculto{
+display: none;
+}
+
+footer{
+    background-image: linear-gradient(#32c2fe, rgb(11, 77, 209), rgb(0, 0, 5));
+    margin-top: 100px;
+    height: 400px;
+    text-align: center;
+    border-top: 5px solid #ff9e13;
+}
+.logo-rodape{
+    padding: 80px;
+}
+.agencia{
+    flex: 20%;
+    color: white;
+    font-family: "Shadows Into Light", cursive;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 100px;
+}
